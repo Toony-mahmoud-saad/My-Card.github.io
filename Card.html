@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="Card.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="shortcut icon" href="edited.jpg" type="image/x-icon">
+  <title>Toony-Card</title>
+  <style>
+    .title {
+      font-size: 20px;
+      color: black;
+      margin-top: 20px;
+      font-family: sans-serif;
+      font-style: italic;
+      animation-name: toony1;
+      animation-duration: 1.3s;
+      animation-delay: 0.5s;
+      transition: 0.6s;
+    }
+
+    @keyframes toony1 {
+      form {
+        letter-spacing: 15px;
+        color: #5e3535;
+      }
+      to {
+        letter-spacing: 0px;
+        color: black;
+      }
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .card-footer {
+      background-color: #f0f0f0;
+      padding-bottom: 20px;
+    }
+
+    .social {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .Facebook {
+      color: blue;
+      font-size: larger;
+    }
+
+    .GitHub {
+      color: black;
+      font-size: larger;
+    }
+
+    .Instagram {
+      color: #dd0fcbaa;
+      font-size: larger;
+    }
+
+    .youtube {
+      color: red;
+      font-size: larger;
+    }
+
+    .linkedin {
+      color: #0077b2;
+      font-size: larger;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="title">
+    <h1 class="text-center">Toony Card</h1>
+  </div>
+
+  <div class="container">
+    <div class="card w-70">
+      <img src="edited.jpg" alt="fuckkk" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Mahmoud Saad-Toony</h5>
+        <p>
+          I'm a Software Engineer and my implementation is 'WEB',
+          I'm a student at <a href="http://fcih.helwan.edu.eg/" class="car-link" target="_blank">Faculty of Computers
+            and Artificial Intelligence</a>
+          ,<a href="https://www.helwan.edu.eg/" target="_blank" class="card-link text-danger">Helwan University</a>
+          <br>latest year <b>inshaa Allah</b>
+        </p>
+      </div>
+      <div class="card-footer">
+        <p class="text-muted">My Social...(follow to be friends)</p>
+
+        <div class="social">
+          <!-- Facebook -->
+          <a href="https://web.facebook.com/profile.php?id=61561142496982" class="Facebook" target="_blank"
+            alt="No Internit"><i class="fa-brands fa-facebook"></i></a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/Toony-mahmoud-saad" class="GitHub" target="_blank" alt="No Internit"><i
+              class="fa-brands fa-github"></i></a>
+
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/t_o_o_n_y1/" class="Instagram" target="_blank" alt="No Internit"><i
+              class="fa-brands fa-square-instagram"></i></a>
+
+
+          <!-- youtube -->
+          <a href="https://www.youtube.com/@t_o_o_n_y" class="youtube" target="_blank" alt="No Internit"><i
+              class="fa-brands fa-youtube"></i></a>
+
+
+          <!-- linkedin -->
+          <a href="https://www.linkedin.com/in/mahmoud-saad-a2499b31b/" class="linkedin" target="_blank"
+            alt="No Internit"><i class="fa-brands fa-linkedin"></i></a>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="bootstrap.js"></script>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="popper.min.js"></script>
+</body>
+
+</html>
